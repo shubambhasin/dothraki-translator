@@ -25,6 +25,6 @@ translateBtn.addEventListener("click", function clickHandler() {
 })
 
 clearInput.addEventListener("click", function clear() {
-    console.log("hello");
+    console.log("Text cleared");
     userInput.value="";
 })
