@@ -1,0 +1,86 @@
+body {
+    background:url("https://blog.britishmuseum.org/wp-content/uploads/2017/07/Dani-in-a-circle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.no-bullet
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+.header
+{
+    
+    width: 70%;
+    display: block;
+    margin: auto;
+    color:white;
+    font-size: larger;
+    
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%)
+}
+
+.btn-grad {
+    
+    padding: 15px 45px;
+    border: none;
+    
+    text-transform: uppercase;
+    transition: 0.6s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 10px #eee;
+    border-radius: 10px;
+    
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.border-none-radius {
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#output {
+
+    height: 20vh;
+    background: white;
+    color: black;
+}
+
+textarea {
+    height: 20vh;
+}
+
+button {
+    display: block;
+    margin: auto;
+
+}
+
+textarea,
+#output {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
